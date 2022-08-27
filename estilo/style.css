@@ -65,3 +65,30 @@ transform: translate(-3px, -3px);
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514) ;
 transition: transform 0.5s;
 }
+
+
+@media screen and (max-width: 600px) {
+
+    section#telefone{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 425px;
+        width: 211px;
+        background: url('../imagens/frame-iphone-mobile.png' ) center center  no-repeat fixed;
+        
+        
+    }
+    iframe#tela{
+        position: relative;
+        top: 54px;
+        left: 15px;
+        width: 181px;
+        height: 320px;
+        
+       
+        background-attachment: scroll;
+        
+    }
+}
