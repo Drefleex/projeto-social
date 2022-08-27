@@ -94,8 +94,8 @@ transition: transform 0.5s;
         left: 15px;
         width: 182px;
         height: 320px;
-        
-       overflow: hidden;
+        overflow: hidden;
         
     }
+    --webkit-scrollbar{display: none;}
 }
