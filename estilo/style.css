@@ -95,7 +95,7 @@ transition: transform 0.5s;
         width: 182px;
         height: 320px;
         
-       
+       overflow: hidden;
         
     }
 }
