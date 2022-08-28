@@ -67,7 +67,7 @@ transition: transform 0.5s;
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width:600px) and (max-width:768px) {
     body{
         background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
         background-size: cover;
