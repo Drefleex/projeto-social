@@ -67,7 +67,7 @@ transition: transform 0.5s;
 }
 
 
-@media screen and (min-width:600px) and (max-width:768px) {
+@media screen and (max-width:600px) {
     body{
         background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
         background-size: cover;
@@ -78,7 +78,7 @@ transition: transform 0.5s;
 
     section#telefone{
         position: absolute;
-        top: 35%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
         height: 425px;
@@ -87,15 +87,24 @@ transition: transform 0.5s;
         
         
     }
+
+    section#redes-sociais{
+        text-align: left;
+    
+    }
+
     iframe#tela{
         position: relative;
         top: 54px;
         left: 15px;
         width: 182px;
         height: 320px;
+        background-attachment: scroll;
         overflow-x: hidden;
         overflow-x: hidden;
         
     }
+
+
     --webkit-scrollbar{display: none;}
 }
