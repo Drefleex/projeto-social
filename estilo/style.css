@@ -69,12 +69,10 @@ transition: transform 0.5s;
 
 @media screen and (max-width:640px) and (min-height:360px) {
     body{
-        background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+        background: url('../imagens/fundo-madeira-mobile.jpg') no-repeat top center;
         background-size: cover;
         background-attachment: fixed;
-        width: 100vw;
-        height: 100vh;
-    }
+      }
 
     section#telefone{
         position: absolute;
